@@ -5,6 +5,7 @@ body{
     font-weight:bold;
     background-color: #ebe1e1;
 }
+
 .accordion{
     max-width: 40rem;
     margin: 1rem auto;
@@ -59,3 +60,8 @@ img{
 .accordion-text{
     display: none;
 }
+@media (max-width: 820px) {
+    body {
+      font-size: 0.8rem;
+    }
+  }
