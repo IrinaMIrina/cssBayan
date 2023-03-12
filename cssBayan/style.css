@@ -21,6 +21,7 @@ body{
 }
 i{
     opacity: 0;
+    transition-duration: 0.5s;
 }
 .accordion:hover i {
     opacity: 1;
@@ -41,12 +42,13 @@ span{
     display:grid;
     grid-template-columns: 1fr 2rem;
     padding: 0.5rem 1rem;
-    transition: 0.2s ease-out;
+    transition: 0.5s ease-out;
 }
 img{
    display: block;
    margin-left: auto;
    margin-right: auto;
+   transition-duration: 0.5s;
 }
 .accordion-title:hover ~ .accordion-text{
     display:block;
